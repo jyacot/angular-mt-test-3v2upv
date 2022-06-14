@@ -1,0 +1,18 @@
+p {
+  font-family: Lato;
+}
+.image {
+  background-image: url(https://mma.prnewswire.com/media/690041/Moneytrans_Logo.jpg?w=200);
+  height: 5rem;
+  width: 10rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.tables {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}

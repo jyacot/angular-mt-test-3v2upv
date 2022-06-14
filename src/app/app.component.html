@@ -1,0 +1,13 @@
+<div class="container-fluid">
+  <div class="navbar">
+    <h1 class="title">Test</h1>
+    <div class="image"></div>
+  </div>
+
+  <div class="tables">
+    <app-currency-table
+      [type]="cur.name"
+      *ngFor="let cur of typeCurrency"
+    ></app-currency-table>
+  </div>
+</div>
